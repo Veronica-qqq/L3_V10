@@ -19,28 +19,28 @@ int main()
     cout << "Input var:\n";
     cin >> var;
     if (var == 1) {
+        ww.print();
+        bn.print();
+        ie.print();
+        id.print();
         cout << "1) Choose:\n 1 - Window\n 2 - Button\n 3 - Button with the image\n 4 - Input field\n";
         cin >> var;
         if (var == 1) {
-            ww.print();
             cout << "Window Owner: " << ww.get_owner();
             cout << "\nWindow Size: " << ww.get_size1();
             cout << "\nHeader: " << ww.get_header() << endl;
         }
-        if (var == 2) {
-            bn.print();
+        if (var == 2) {          
             cout << "Button Owner: " << bn.get_owner();
             cout << "\nButton Size: " << bn.get_size1();
             cout << "\nTitle: " << bn.get_title() << endl;
         }
-        if (var == 3) {
-            ie.print();
+        if (var == 3) {          
             cout << "Image Owner: " << ie.get_owner();
             cout << "\nImage Size: " << ie.get_size1();
             cout << "\nPicture: " << ie.get_picture() << endl;
         }
-        if (var == 4) {
-            id.print();
+        if (var == 4) {          
             cout << "InputField Owner: " << id.get_owner();
             cout << "\nInputField Size: " << id.get_size1();
             cout << "\nTitle: " << id.get_text() << endl;
