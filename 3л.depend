@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1587661851 source:c:\users\Вероника\desktop\лабы\3л\graphicelement.cpp
+	<iostream>
+	"GraphicElement.h"
+	<string>
+
+1587664258 c:\users\Вероника\desktop\лабы\3л\graphicelement.h
+
+1587666410 source:c:\users\Вероника\desktop\лабы\3л - копия\graphicelement.cpp
+	"GraphicElement.h"
+
+1587666423 c:\users\Вероника\desktop\лабы\3л - копия\graphicelement.h
+	<iostream>
+	<string>
+
+1587661851 source:c:\users\Вероника\desktop\лабы\3л - копия\main.cpp
+	<iostream>
+	<string>
+	"GraphicElement.h"
+
+1587666773 source:c:\users\Вероника\desktop\лабы\3л - копия\button.cpp
+	"Button.h"
+
+1587666978 c:\users\Вероника\desktop\лабы\3л - копия\button.h
+	<string>
+	<iostream>
+	"GraphicElement.h"
+
+1587667317 source:c:\users\Вероника\desktop\лабы\3л - копия\inputfield.cpp
+	"InputField.h"
+
+1587667256 c:\users\Вероника\desktop\лабы\3л - копия\inputfield.h
+	"GraphicElement.h"
+	<iostream>
+	<string>
+
+1587667601 source:c:\users\Вероника\desktop\лабы\3л - копия\image.cpp
+	"Image.h"
+
+1587667601 c:\users\Вероника\desktop\лабы\3л - копия\image.h
+	"GraphicElement.h"
+	<iostream>
+
+1587667476 source:c:\users\Вероника\desktop\лабы\3л - копия\window.cpp
+	"Window.h"
+
+1587667394 c:\users\Вероника\desktop\лабы\3л - копия\window.h
+	"GraphicElement.h"
+	<iostream>
+	<string>
+
