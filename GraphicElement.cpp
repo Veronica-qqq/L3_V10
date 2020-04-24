@@ -10,7 +10,8 @@ GraphicElement::GraphicElement(const GraphicElement &g)
 GraphicElement::GraphicElement(string t_owner, int t_size1)
     {
         owner = t_owner;
-        size1 = t_size1;
+        if (t_size1 > 0) {
+        size1 = t_size1; }
     }
 void GraphicElement::set_owner(string graph_owner)
     {
@@ -22,6 +23,7 @@ string GraphicElement::get_owner() const
     }
 void GraphicElement::set_size1(int graph_size1)
     {
+        if (graph_size1 > 0) {
         size1 = graph_size1;
     }
 int GraphicElement::get_size1() const
