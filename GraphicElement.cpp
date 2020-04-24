@@ -24,7 +24,7 @@ string GraphicElement::get_owner() const
 void GraphicElement::set_size1(int graph_size1)
     {
         if (graph_size1 > 0) {
-        size1 = graph_size1;
+        size1 = graph_size1; }
     }
 int GraphicElement::get_size1() const
     {
